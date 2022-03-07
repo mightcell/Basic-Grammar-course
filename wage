@@ -1,0 +1,16 @@
+#include <iostream>
+#include <iomanip>
+
+using namespace std;
+
+int main(void)
+{
+    int EmpNo;
+    double TotalTime, Wage;
+    
+    cin >> EmpNo >> TotalTime >> Wage;
+    cout << "NUMBER = " << EmpNo << endl;
+    cout << "SALARY = U$ " << fixed << setprecision(2) << TotalTime * Wage << endl;
+    
+    return 0;
+}
