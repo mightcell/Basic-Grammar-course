@@ -1,0 +1,13 @@
+#include <iostream>
+#include <iomanip>
+
+using namespace std;
+
+int main(void)
+{
+    int ODO;
+    double ml;
+    cin >> ODO >> ml;
+    cout << fixed << setprecision(3) << ODO / ml << " km/l" << endl;
+    return 0;
+}
